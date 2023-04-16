@@ -1,0 +1,32 @@
+body{
+    overflow: scroll;
+    display: grid;
+    background-image: url(./Downloads/pexels-max-rahubovskiy-5998041.jpg);
+    background-repeat:  repeat-x;
+    background-size: cover;
+    
+    
+    
+}
+.class1{
+    display: flex;
+    width: 1400px;
+    font-size: x-large;
+   
+    background: linear-gradient(to right,rgb(245, 243, 243), black, rgb(248, 245, 246));
+}
+.class1 h7{
+    background-image: url(./Downloads/pexels-max-rahubovskiy-5998041.jpg);
+    text-shadow: 2px 2px 3px rgb(182, 179, 179);
+    width: 700px;
+    text-align: center;
+}
+.class2{
+    border: 20px solid rgb(241, 237, 237);
+    background-color: rgb(230, 228, 226);
+    display: flex; 
+}
+.class2:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
